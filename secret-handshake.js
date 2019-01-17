@@ -5,5 +5,8 @@ export const secretHandshake = (number) => {
   if(number == [1]) {
     return ['wink'];
   }
-  return ['double blink'];
+  if(number == [2]) {
+    return ['double blink'];
+  }
+  return ['wink', 'double blink'];
 };
