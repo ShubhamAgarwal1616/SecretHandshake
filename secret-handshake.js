@@ -8,5 +8,8 @@ export const secretHandshake = (number) => {
   if(number == [2]) {
     return ['double blink'];
   }
-  return ['wink', 'double blink'];
+  if(number == [3]) {
+    return ['wink', 'double blink'];
+  }
+  return ['close your eyes'];
 };
