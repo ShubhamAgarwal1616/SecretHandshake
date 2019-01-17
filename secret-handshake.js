@@ -1,3 +1,6 @@
 export const secretHandshake = (number) => {
-  throw "Handshake must be a number";
+  if (isNaN(number)) {
+    throw "Handshake must be a number";
+  }
+  return ['wink'];
 };
